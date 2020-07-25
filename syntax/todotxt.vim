@@ -1,7 +1,9 @@
-" Vim syntax file
-" Language:		Custom TODO files
-" Maintainer:	Szymon Rudziński <swisrud+todotxt@gmail.com>
-" Filenames:	*.todotxt
+" Plugin to highlight .TODOTXT files according to my rules
+"
+" Language: Custom TODO files
+" Author: EtiamNullam
+" URL: https://github.com/EtiamNullam/vim-todotxt-syntax
+" Filenames: *.todotxt
 
 if exists("b:current_syntax")
     finish
