@@ -20,7 +20,7 @@ syn region todotxtCancelled start=/^\s*\// end=/$/
 " Linking
 hi def link todotxtComment   Normal
 hi def link todotxtTask      Type
-hi def link todotxtDone      Statement
+hi def link todotxtDone      String
 hi def link todotxtCritical  Special
 hi def link todotxtQuestion  Constant
 hi def link todotxtCancelled Comment
