@@ -11,11 +11,11 @@ endif
 
 " Regions
 syn region todotxtComment   start=/^\s*./  end=/$/
-syn region todotxtTask      start=/^\s*-/  end=/$/
-syn region todotxtDone      start=/^\s*+/  end=/$/
-syn region todotxtCritical  start=/^\s*!/  end=/$/
-syn region todotxtQuestion  start=/^\s*?/  end=/$/
-syn region todotxtCancelled start=/^\s*\// end=/$/
+syn region todotxtTask      start=/^\s*-/  end=/$/ "-
+syn region todotxtDone      start=/^\s*+/  end=/$/ "+
+syn region todotxtCritical  start=/^\s*!/  end=/$/ "!
+syn region todotxtQuestion  start=/^\s*?/  end=/$/ "?
+syn region todotxtCancelled start=/^\s*\// end=/$/ "/
 
 " Linking
 hi def link todotxtComment   Normal
