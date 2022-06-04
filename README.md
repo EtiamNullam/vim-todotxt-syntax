@@ -1,6 +1,6 @@
 # TODOTXT for Vim
 
-This simple syntax for vim allows for easy creation of simple TODO files.
+This syntax plugin for vim allows for easy creation of simple `TODO` files.
 
 ![Preview](Images/Preview.jpg)
 
@@ -8,9 +8,9 @@ Start a line with one of these characters for to highlight it with various color
 | Character | Highlight Group |
 | --- | --------- |
 | `-` | Type      |
-| `+` | Statement |
+| `+` | String    |
 | `!` | Special   |
-| `?` | Constant  |
+| `?` | Function  |
 | `/` | Comment   |
 
 
@@ -18,26 +18,30 @@ Whitespaces don't matter and indentation can be useful to create a tree-like str
 
 ![Whitespaces don't matter](Images/Whitespaces.jpg)
 
-All examples are shown in solarized light color palette. Colors depends on your color scheme.
-
 ## Installation
 
 <details>
-  <summary>Use your plugin manager (recommended)</summary>
+  <summary>Use your favorite plugin manager (recommended)</summary>
 
-  For example using [vim-plug](https://github.com/junegunn/vim-plug):
-
-  ```viml
+  ```vim
   Plug 'EtiamNullam/vim-todotxt-syntax'
   ```
+
+  Both `vim` and `neovim` are supported.
 </details>
 
 <details>
-  <summary>Manual</summary>
+  <summary>
+    Manual (vim)
+  </summary>
 
   Move `todotxt.vim` to `~/vimfiles/syntax` (Windows) or `~/.vim/syntax` (Unix)
+
+  Make sure that `syntax` is enabled in your `vimrc` file by `syntax enable`
 </details>
 
-Also make sure that syntax is enabled in your config by `syntax enable`
+## Notes
 
 [More info about syntax files](https://vim.wikia.com/wiki/Creating_your_own_syntax_files)
+
+All examples are shown using [white-chocolate](https://github.com/EtiamNullam/white-chocolate.nvim) theme.
