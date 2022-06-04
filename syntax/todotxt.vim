@@ -22,7 +22,7 @@ hi def link todotxtComment   Normal
 hi def link todotxtTask      Type
 hi def link todotxtDone      String
 hi def link todotxtCritical  Special
-hi def link todotxtQuestion  Constant
+hi def link todotxtQuestion  Function
 hi def link todotxtCancelled Comment
 
 let b:current_syntax = "todotxt"
