@@ -21,11 +21,11 @@ Simple syntax plugin both for [`vim`](https://www.vim.org) and [`neovim`](https:
 - Can be used on blackboard or paper notes
 - Addicting
 
-![Preview](Images/Preview.jpg)
+<img alt="Preview" src="Images/Preview.jpg" width="600" />
 
 Whitespaces don't matter and indentation can be useful to create a tree-like structure:
 
-![Whitespaces don't matter](Images/Whitespaces.jpg)
+<img alt="Whitespaces don't matter" src="Images/Whitespaces.jpg" width="600" />
 
 ## Installation
 
