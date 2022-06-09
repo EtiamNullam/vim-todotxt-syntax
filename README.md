@@ -42,7 +42,7 @@ Whitespaces don't matter and indentation can be useful to create a tree-like str
 
 ## Usage
 
-After you've installed the plugin installed every file that ends with `.todotxt` will have this syntax highlighting enabled. You can use `:set filetype=todotxt` to force it for current buffer, might be useful for scratch buffers. You might need to invoke `:e` to reload file after you save file the first time.
+After you've installed the plugin installed every file that ends with `.todotxt` will have this syntax highlighting enabled. You can use `:set filetype=todotxt` to force it for current buffer, might be useful for scratch buffers.
 
 Start a line with one of these characters for to highlight it with various colors:
 | Character | Highlight Group | Suggested meaning |
