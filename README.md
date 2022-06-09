@@ -1,5 +1,14 @@
-# TODOtxt ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/EtiamNullam/vim-todotxt-syntax) ![License on GitHub](https://img.shields.io/github/license/EtiamNullam/vim-todotxt-syntax)
+<h1>
+  TODOtxt
+  <a href="https://github.com/EtiamNullam/vim-todotxt-syntax/tags" alt="GitHub tag (latest SemVer)">
+    <img src="https://img.shields.io/github/v/tag/EtiamNullam/vim-todotxt-syntax" />
+  </a>
 
+  <a href="LICENSE" alt="License on GitHub">
+    <img src="https://img.shields.io/github/license/EtiamNullam/vim-todotxt-syntax" />
+  </a>
+</h1>
+  
 Simple syntax plugin both for [`vim`](https://www.vim.org) and [`neovim`](https://neovim.io) to give a bit of life to your `TODO` without any bloat.
 
 ## Features
