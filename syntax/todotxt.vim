@@ -18,7 +18,6 @@ syn region todotxtQuestion  start=/^\s*?/  end=/$/ "?
 syn region todotxtCancelled start=/^\s*\// end=/$/ "/
 
 " Linking
-hi def link todotxtComment   NONE
 hi def link todotxtTask      Type
 hi def link todotxtDone      String
 hi def link todotxtCritical  Special
