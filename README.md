@@ -5,13 +5,13 @@ This syntax plugin for vim allows for easy creation of simple `TODO` files.
 ![Preview](Images/Preview.jpg)
 
 Start a line with one of these characters for to highlight it with various colors:
-| Character | Highlight Group |
-| --- | --------- |
-| `-` | Type      |
-| `+` | String    |
-| `!` | Special   |
-| `?` | Function  |
-| `/` | Comment   |
+| Character | Highlight Group | Suggested meaning |
+| --- | --------- | --- |
+| `-` | Type      | To do |
+| `+` | String    | Done |
+| `!` | Special   | Important |
+| `?` | Function  | Question, optional or needs more information |
+| `/` | Comment   | Cancelled |
 
 
 Whitespaces don't matter and indentation can be useful to create a tree-like structure:
