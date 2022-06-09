@@ -1,4 +1,4 @@
-# TODOtxt
+# TODOtxt ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/EtiamNullam/vim-todotxt-syntax) ![License on GitHub](https://img.shields.io/github/license/EtiamNullam/vim-todotxt-syntax)
 
 Simple syntax plugin both for [`vim`](https://www.vim.org) and [`neovim`](https://neovim.io) to give a bit of life to your `TODO` without any bloat.
 
