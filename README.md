@@ -16,9 +16,9 @@ Simple syntax plugin both for [`vim`](https://www.vim.org) and [`neovim`](https:
 - Simple
 - Easy to use
 - A bit of eye-candy with color-coded types of tasks
-- A sense of fulfillment when you complete a task - only because that task will be green (depends on your colorscheme)
+- A sense of fulfillment when you complete a task
 - I'm using it daily for 5 years with no issues
-- Can be used on blackboard or paper notes
+- Fits physical blackboards and paper notes perfectly
 - Addicting
 
 <img alt="Preview" src="Images/Preview.jpg" width="600" />
