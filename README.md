@@ -23,20 +23,20 @@ Simple syntax plugin both for [`vim`](https://www.vim.org) and [`neovim`](https:
 
 <img alt="Preview" src="Images/Preview.jpg" width="600" />
 
-Whitespaces don't matter and indentation can be useful to create a tree-like structure:
+Whitespaces don't matter and indentation can be useful to create a tree structure:
 
 <img alt="Whitespaces don't matter" src="Images/Whitespaces.jpg" width="600" />
 
 ## Installation
 
-<details>
-  <summary>Use your favorite plugin manager (recommended)</summary>
-
+<details open>
+  <summary>
+    Use your favorite plugin manager (recommended, both for neovim and vim)
+  </summary>
+  
   ```vim
   Plug 'EtiamNullam/vim-todotxt-syntax'
   ```
-
-  Both `vim` and `neovim` are supported.
 </details>
 
 <details>
@@ -51,9 +51,9 @@ Whitespaces don't matter and indentation can be useful to create a tree-like str
 
 ## Usage
 
-After you've installed the plugin installed every file that ends with `.todotxt` will have this syntax highlighting enabled. You can use `:set filetype=todotxt` to force it for current buffer, might be useful for scratch buffers.
+After you've installed the plugin installed every file that ends with `.todotxt` will have this syntax highlighting enabled.
 
-Start a line with one of these characters for to highlight it with various colors:
+Start a line with one of these characters to highlight it with various colors:
 | Character | Highlight Group | Suggested meaning |
 | --- | --------- | --- |
 | `-` | Type      | To do |
@@ -61,6 +61,8 @@ Start a line with one of these characters for to highlight it with various color
 | `!` | Special   | Important |
 | `?` | Function  | Question, optional or needs more information |
 | `/` | Comment   | Cancelled |
+
+You can use `:set filetype=todotxt` to force it for current buffer, might be useful for scratch buffers.
 
 ## Notes
 
